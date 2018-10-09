@@ -22,37 +22,37 @@ p {
 
 .content {
   left: 3em;
-  top: 5em;
+  top: 4.5em;
 }
 
 .cone {
-  top: 15em;
-  left: 1em;
+  top: 16em;
+  left: 3em;
   z-index: 2;
 }
 
 .mint {
-  top: 9.4em;
-  left: 1em;
+  top: 10.4em;
+  left: 3em;
   z-index: 1;
 }
 
 .chip {
-  top: 4.5em;
-  left: 1.5em;
+  top: 5.5em;
+  left: 3.5em;
   z-index: 3;
 }
 
 .fudge {
-  top: .7em;
-  left: 1em;
+  top: 1.7em;
+  left: 3em;
   z-index: 4;
 }
 
 .cherry {
   z-index: 5;
-  top: -3em;
-  left: 1em;
+  top: -2em;
+  left: 3em;
 }
 
 .banner {
