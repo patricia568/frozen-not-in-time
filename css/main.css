@@ -1,24 +1,50 @@
+html {
+  font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+  color: #990073;
+}
+
+p {
+  color: #c09;
+  max-width: 19em;
+}
+
+.content {
+  left: 2em;
+  top: 10em;
+}
+
 .cone {
-  top: 25em;
+  top: 21.5em;
   z-index: 2;
 }
 
 .mint {
-  top: 17.2em;
+  top: 13.7em;
   z-index: 1;
 }
 
 .chip {
-  top: 11em;
+  top: 7.5em;
   left: 1em;
   z-index: 3;
 }
 
 .fudge {
-  top: 6em;
+  top: 2.5em;
   z-index: 4;
 }
 
 .cherry {
   z-index: 5;
+  top: -3.5em;
+}
+
+.banner {
+  background-image: repeating-linear-gradient(-33deg, #d4fdff, #d4fdff 1%, #c9fcff 1%, #c9fcff 2%);
+  background-size: cover;
+  height: 35em;
+  border: solid 8px #b3fbff;
 }
