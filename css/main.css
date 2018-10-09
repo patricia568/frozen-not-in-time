@@ -1,0 +1,24 @@
+.cone {
+  top: 25em;
+  z-index: 2;
+}
+
+.mint {
+  top: 17.2em;
+  z-index: 1;
+}
+
+.chip {
+  top: 11em;
+  left: 1em;
+  z-index: 3;
+}
+
+.fudge {
+  top: 6em;
+  z-index: 4;
+}
+
+.cherry {
+  z-index: 5;
+}
