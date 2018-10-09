@@ -4,11 +4,20 @@ html {
 
 h1 {
   color: #990073;
+  transform-origin: bottom left;
+  transform: rotate(-10deg);
 }
 
 p {
   color: #c09;
   max-width: 19em;
+  transform-origin: bottom left;
+  transform: rotate(-5deg);
+}
+
+.btn-ghost {
+  border-color: #990073;
+  color: #c09;
 }
 
 .content {
@@ -18,30 +27,32 @@ p {
 
 .cone {
   top: 15em;
+  left: 1em;
   z-index: 2;
 }
 
 .mint {
   top: 9.4em;
+  left: 1em;
   z-index: 1;
 }
 
 .chip {
   top: 4.5em;
-  left: .5em;
+  left: 1.5em;
   z-index: 3;
 }
 
 .fudge {
   top: .7em;
-  left: ;
+  left: 1em;
   z-index: 4;
 }
 
 .cherry {
   z-index: 5;
   top: -3em;
-  left: em;
+  left: 1em;
 }
 
 .banner {
