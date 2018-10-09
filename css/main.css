@@ -17,35 +17,34 @@ p {
 }
 
 .cone {
-  top: 15.8em;
-  right: 6.4em;
+  top: -25em;
   z-index: 2;
 }
 
 .mint {
-  top: -20em;
+  top: -21em;
   z-index: 1;
 }
 
 .chip {
-  top: -14em;
+  top: -15em;
   left: .5em;
   z-index: 3;
 }
 
 .fudge {
-  top: -8em;
+  top: -9em;
   z-index: 4;
 }
 
 .cherry {
   z-index: 5;
-  top: -2em;
+  top: -3em;
 }
 
 .banner {
   background-image: repeating-linear-gradient(-33deg, #d4fdff, #d4fdff 1%, #c9fcff 1%, #c9fcff 2%);
   background-size: cover;
-  height: 27em;
+  height: 25.5em;
   border: solid 8px #b3fbff;
 }
