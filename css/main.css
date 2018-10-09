@@ -12,34 +12,36 @@ p {
 }
 
 .content {
-  left: 2em;
-  top: 10em;
+  left: 3em;
+  top: 5em;
 }
 
 .cone {
-  top: -25em;
+  top: 15em;
   z-index: 2;
 }
 
 .mint {
-  top: -21em;
+  top: 9.4em;
   z-index: 1;
 }
 
 .chip {
-  top: -15em;
+  top: 4.5em;
   left: .5em;
   z-index: 3;
 }
 
 .fudge {
-  top: -9em;
+  top: .7em;
+  left: ;
   z-index: 4;
 }
 
 .cherry {
   z-index: 5;
   top: -3em;
+  left: em;
 }
 
 .banner {
