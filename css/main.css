@@ -1,5 +1,5 @@
 html {
-  font-family: 'Fredoka One', sans-serif;
+  font-family: "Fredoka One", sans-serif;
 }
 
 h1 {
@@ -22,10 +22,9 @@ p {
 
 .btn-ghost:hover {
   background-color: #c09;
-  opacity: 0.3;
+  opacity: .3;
   color: #990073;
   border-color: #990073;
-
 }
 
 .content {
@@ -46,6 +45,7 @@ p {
     visibility: visible;
     filter: blur(0);
   }
+
 }
 
 .cone {
