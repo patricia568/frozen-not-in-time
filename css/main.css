@@ -1,5 +1,5 @@
 html {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka One', sans-serif;
 }
 
 h1 {
@@ -20,54 +20,77 @@ p {
   color: #c09;
 }
 
+.btn-ghost:hover {
+  background-color: #c09;
+  opacity: 0.3;
+  color: #990073;
+  border-color: #990073;
+
+}
+
 .content {
   left: 3em;
   top: 4.5em;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+  animation: blur-in 300ms 1s linear;
+}
+
+@keyframes blur-in {
+
+  0% {
+    visibility: hidden;
+    filter: blur(7px);
+  }
+
+  100% {
+    visibility: visible;
+    filter: blur(0);
+  }
 }
 
 .cone {
   top: 16em;
   left: 3em;
   z-index: 2;
-  animation: fly-in 250ms linear;
+  animation: fly-in 300ms linear forwards;
 }
 
 .mint {
   top: 10.4em;
   left: 3em;
   z-index: 1;
-  animation: fly-in 250ms 250ms linear;
+  animation: fly-in 300ms 250ms linear forwards;
 }
 
 .chip {
   top: 5.5em;
   left: 3.5em;
   z-index: 3;
-  animation: fly-in 250ms 500ms linear;
+  animation: fly-in 300ms 500ms linear forwards;
 }
 
 .fudge {
   top: 1.7em;
   left: 3em;
   z-index: 4;
-  animation: fly-in 250ms 750ms linear;
+  animation: fly-in 300ms 750ms linear forwards;
 }
 
 .cherry {
   z-index: 5;
   top: -2em;
   left: 3em;
-  animation: fly-in 250ms 1.5s linear;
+  animation: fly-in 300ms 1.5s linear forwards;
 }
 
 @keyframes fly-in {
 
   0% {
-    top: -20em;
+    transform: translateY(-20em);
   }
 
   100% {
-    top: 0;
+    transform: translateY(0);
   }
 
 }
