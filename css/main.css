@@ -29,30 +29,47 @@ p {
   top: 16em;
   left: 3em;
   z-index: 2;
+  animation: fly-in 250ms linear;
 }
 
 .mint {
   top: 10.4em;
   left: 3em;
   z-index: 1;
+  animation: fly-in 250ms 250ms linear;
 }
 
 .chip {
   top: 5.5em;
   left: 3.5em;
   z-index: 3;
+  animation: fly-in 250ms 500ms linear;
 }
 
 .fudge {
   top: 1.7em;
   left: 3em;
   z-index: 4;
+  animation: fly-in 250ms 750ms linear;
 }
 
 .cherry {
   z-index: 5;
   top: -2em;
   left: 3em;
+  animation: fly-in 250ms 1.5s linear;
+}
+
+@keyframes fly-in {
+
+  0% {
+    top: -20em;
+  }
+
+  100% {
+    top: 0;
+  }
+
 }
 
 .banner {
