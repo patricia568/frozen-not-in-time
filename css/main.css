@@ -31,18 +31,26 @@ p {
   left: 3em;
   top: 4.5em;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
-  animation: blur-in 300ms 1s linear;
+  animation: appear-in 1s linear forwards;
 }
 
-@keyframes blur-in {
+@keyframes appear-in {
 
   0% {
-    visibility: hidden;
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0;
+    filter: blur(7px);
+  }
+
+  90% {
     filter: blur(7px);
   }
 
   100% {
-    visibility: visible;
+    opacity: 1;
     filter: blur(0);
   }
 
@@ -59,37 +67,37 @@ p {
   top: 10.4em;
   left: 3em;
   z-index: 1;
-  animation: fly-in 300ms 250ms linear forwards;
+  animation: fly-in 400ms linear forwards;
 }
 
 .chip {
   top: 5.5em;
   left: 3.5em;
   z-index: 3;
-  animation: fly-in 300ms 500ms linear forwards;
+  animation: fly-in 600ms linear forwards;
 }
 
 .fudge {
   top: 1.7em;
   left: 3em;
   z-index: 4;
-  animation: fly-in 300ms 750ms linear forwards;
+  animation: fly-in 800ms linear forwards;
 }
 
 .cherry {
   z-index: 5;
   top: -2em;
   left: 3em;
-  animation: fly-in 300ms 1.5s linear forwards;
+  animation: fly-in 1000ms linear forwards;
 }
 
 @keyframes fly-in {
 
-  0% {
+  from {
     transform: translateY(-20em);
   }
 
-  100% {
+  to {
     transform: translateY(0);
   }
 
